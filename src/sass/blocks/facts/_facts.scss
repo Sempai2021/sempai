@@ -1,0 +1,126 @@
+.facts {
+  height: 560px;
+  // background: url("../img/header/fonsss.jpg") center;
+  &__wrapper {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 1000px;
+  }
+}
+
+.fwrap-active {
+  display: block;
+}
+
+.facts-about {
+  margin-right: 50px;
+  height: 500px;
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  &__block {
+    padding: 25px 45px;
+  }
+
+  &__title {
+    position: relative;
+    font-size: 64px;
+    line-height: 70px;
+    font-weight: bold;
+    &:before {
+      position: absolute;
+      border-radius: 100%;
+      content: "";
+      height: 23px;
+      width: 23px;
+      left: 95px;
+      top: 75px;
+      background: black;
+    }
+    span {
+      position: absolute;
+      font-size: 150px;
+      top: 40px;
+      left: 380px;
+    }
+  }
+  &__list {
+    margin-top: 20px;
+    display: grid;
+    grid-template: repeat(7, minmax(25px, auto)) / repeat(
+        1,
+        minmax(100px, auto)
+      );
+    row-gap: 15px;
+    &_descr {
+      font-size: 20px;
+      line-height: 25px;
+      color: #757575;
+      font-family: "Indie Flower", cursive;
+      font-weight: bold;
+      transition: all 0.7s;
+      &:hover {
+        color: #111111;
+      }
+    }
+  }
+}
+
+.facts-text {
+  height: 500px;
+  width: 450px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  &__block {
+    position: relative;
+    padding: 25px 45px;
+
+    &_descr {
+      padding-top: 70px;
+      text-align: center;
+      font-size: 80px;
+      line-height: 100px;
+      font-weight: bold;
+      font-family: "Akronim", cursive;
+      transition: all 0.7s;
+      &:hover {
+        color: #757575;
+      }
+    }
+    &_cercle {
+      position: absolute;
+      border-radius: 100%;
+      content: "";
+      height: 23px;
+      width: 23px;
+      left: 95px;
+      top: 200px;
+      background: black;
+      &:hover {
+        background: #757575;
+      }
+    }
+    &_cercle2 {
+      position: absolute;
+      border-radius: 100%;
+      content: "";
+      height: 23px;
+      width: 23px;
+      left: 330px;
+      top: 260px;
+      background: black;
+      &:hover {
+        background: #757575;
+      }
+    }
+  }
+}
+
+.animate__animated.animate__flash {
+  //   --animate-duration: 2s;
+  --animate-duration: 3s;
+}

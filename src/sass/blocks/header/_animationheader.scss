@@ -1,0 +1,20 @@
+@keyframes img {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.anim-img {
+  animation-name: img;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  &:hover {
+    animation-play-state: paused;
+  }
+}

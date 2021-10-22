@@ -1,0 +1,176 @@
+@media (max-width: 1200px) {
+  .container-nav {
+    max-width: 960px;
+  }
+
+  .tit {
+    margin-right: 145px;
+  }
+
+  .nav-list {
+    grid-template: repeat(1, 32px) / repeat(3, minmax(20px, auto));
+    column-gap: 30px;
+    &__descr {
+      font-size: 32px;
+      line-height: 35px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .container-nav {
+    max-width: 720px;
+  }
+
+  .tit {
+    margin-right: 85px;
+  }
+
+  .nav-list {
+    grid-template: repeat(1, 30px) / repeat(3, minmax(10px, auto));
+    column-gap: 15px;
+    margin-right: 50px;
+    &__descr {
+      font-size: 30px;
+      line-height: 30px;
+    }
+  }
+
+  .nav-social {
+    &__vk {
+      margin-right: 5px;
+      height: 30px;
+      width: 30px;
+    }
+    &__insta {
+      margin-right: 5px;
+      height: 30px;
+      width: 30px;
+    }
+    &__tg {
+      margin-right: 5px;
+      height: 30px;
+      width: 30px;
+    }
+    &__tiktok {
+      margin-right: 5px;
+      height: 30px;
+      width: 30px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container-nav {
+    max-width: 540px;
+  }
+
+  .header-nav {
+    height: 85px;
+    &__list {
+      height: 85px;
+    }
+  }
+
+  .tit {
+    margin-left: 10px;
+    margin-right: 65px;
+    height: 52px;
+    width: 52px;
+    span {
+      font-size: 42px;
+    }
+    a {
+      padding-top: 0px;
+    }
+  }
+
+  .nav-list {
+    grid-template: repeat(1, 30px) / repeat(3, minmax(10px, auto));
+    column-gap: 10px;
+    margin-right: 36px;
+    &__descr {
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }
+
+  .nav-social {
+    display: grid;
+    grid-template: repeat(2, 30px) / repeat(2, 30px);
+    column-gap: 10px;
+    row-gap: 10px;
+    &__vk {
+      margin-right: 0px;
+    }
+    &__insta {
+      margin-right: 0px;
+    }
+    &__tg {
+      margin-right: 0px;
+    }
+    &__tiktok {
+      margin-right: 0px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .container-nav {
+    max-width: 320px;
+  }
+
+  .header-nav {
+    height: 65px;
+    &__list {
+      height: 65px;
+    }
+  }
+
+  .tit {
+    margin-right: 25px;
+    height: 42px;
+    width: 42px;
+    span {
+      font-size: 35px;
+    }
+  }
+
+  .nav-list {
+    grid-template: repeat(1, 25px) / repeat(3, minmax(10px, auto));
+    column-gap: 5px;
+    margin-right: 15px;
+    &__descr {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+
+  .nav-social {
+    display: grid;
+    grid-template: repeat(2, 20px) / repeat(2, 20px);
+    column-gap: 5px;
+    row-gap: 5px;
+    margin-right: 10px;
+    &__vk {
+      margin-right: 0px;
+      height: 20px;
+      width: 25px;
+    }
+    &__insta {
+      margin-right: 0px;
+      height: 20px;
+      width: 25px;
+    }
+    &__tg {
+      margin-right: 0px;
+      height: 20px;
+      width: 25px;
+    }
+    &__tiktok {
+      margin-right: 0px;
+      height: 20px;
+      width: 25px;
+    }
+  }
+}

@@ -1,0 +1,388 @@
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1201px;
+  }
+
+  .photo-close {
+    position: fixed;
+    top: 160px;
+    left: 920px;
+    display: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .header {
+    height: 820px;
+    &__line {
+      width: 800px;
+    }
+  }
+
+  .header-block {
+    width: 800px;
+    &__wrap {
+      margin-right: 52px;
+    }
+    &__title {
+      padding-top: 50px;
+      font-size: 54px;
+      line-height: 60px;
+      :before {
+        position: absolute;
+        border-radius: 100%;
+        content: "";
+        height: 23px;
+        width: 23px;
+        left: -255px;
+        top: 30px;
+        background: black;
+      }
+      span {
+        position: absolute;
+        font-size: 150px;
+        top: 20px;
+        left: 240px;
+      }
+    }
+    &__subtitle {
+      font-size: 30px;
+      line-height: 32px;
+    }
+    &__descr {
+      font-size: 24px;
+      line-height: 27px;
+    }
+  }
+
+  .header-gallery {
+    width: 900px;
+    justify-content: space-between;
+    img {
+      width: 160px;
+    }
+  }
+
+  .photo {
+    width: 450px;
+    img {
+      width: 450px;
+    }
+  }
+
+  .photo-close {
+    position: fixed;
+    top: 160px;
+    left: 720px;
+    display: none;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .header {
+    height: 990px;
+    &__line {
+      width: 690px;
+    }
+  }
+
+  .header-block {
+    width: 690px;
+    &__wrapper {
+      padding: 50px 45px;
+    }
+    &__wrap {
+      margin-right: 42px;
+    }
+    &__title {
+      padding-top: 50px;
+      font-size: 44px;
+      line-height: 50px;
+      :before {
+        position: absolute;
+        border-radius: 100%;
+        content: "";
+        height: 23px;
+        width: 23px;
+        left: -205px;
+        top: 32px;
+        background: black;
+      }
+      span {
+        position: absolute;
+        font-size: 150px;
+        top: 15px;
+        left: 190px;
+      }
+    }
+    &__subtitle {
+      margin-top: 20;
+      font-size: 25px;
+      line-height: 29px;
+    }
+    &__descr {
+      margin-top: 20px;
+      font-size: 20px;
+      line-height: 24px;
+    }
+    &__image {
+      img {
+        width: 300px;
+        height: 400px;
+      }
+    }
+  }
+
+  .header-gallery {
+    width: 690px;
+    min-height: 345px;
+    display: grid;
+    grid-template: repeat(2, 150px) / repeat(3, 160px);
+    justify-content: space-evenly;
+    row-gap: 15px;
+    column-gap: 15px;
+    img {
+      width: 160px;
+      height: 150px;
+    }
+  }
+
+  .photo {
+    width: 450px;
+    img {
+      width: 450px;
+    }
+  }
+
+  .photo-close {
+    left: 620px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .header {
+    height: 2150px;
+    &__line {
+      width: 500px;
+    }
+  }
+  .header-block {
+    width: 500px;
+    height: 380px;
+    margin-top: 45px;
+    &__wrapper {
+      padding: 30px 45px;
+    }
+    &__wrap {
+      margin-right: 32px;
+    }
+    &__title {
+      padding-top: 20px;
+      font-size: 34px;
+      line-height: 40px;
+      :before {
+        position: absolute;
+        border-radius: 100%;
+        content: "";
+        height: 19px;
+        width: 19px;
+        left: -163px;
+        top: 23px;
+        background: black;
+      }
+      span {
+        position: absolute;
+        font-size: 130px;
+        top: -7px;
+        left: 148px;
+      }
+    }
+    &__subtitle {
+      margin-top: 15;
+      font-size: 20px;
+      line-height: 25px;
+    }
+    &__descr {
+      margin-top: 15px;
+      font-size: 15px;
+      line-height: 20px;
+    }
+    &__image {
+      img {
+        width: 200px;
+        height: 320px;
+      }
+    }
+  }
+
+  .header-gallery {
+    width: 500px;
+    min-height: 800px;
+    display: grid;
+    grid-template: repeat(5, 300px) / repeat(1, 400px);
+    row-gap: 35px;
+    column-gap: 0;
+    justify-content: none;
+    img {
+      width: 400px;
+      height: 300px;
+    }
+  }
+
+  .photo {
+    width: 290px;
+    height: 250px;
+    img {
+      width: 290px;
+      height: 250px;
+    }
+  }
+
+  .photo-close {
+    z-index: 10;
+    left: 435px;
+  }
+
+  .iclose {
+    height: 50px;
+    width: 50px;
+    fill: #111111;
+    transition: 1s;
+    &:hover {
+      fill: white;
+    }
+  }
+  .pageup {
+    bottom: 5px;
+    right: 6px;
+    height: 25px;
+    width: 25px;
+    &__up {
+      height: 25px;
+      width: 25px;
+      fill: black;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 320px;
+  }
+
+  .header {
+    height: 2350px;
+    &__line {
+      width: 310px;
+    }
+  }
+
+  .header-block {
+    width: 310px;
+    height: 605px;
+    margin-top: 20px;
+    &__wrapper {
+      padding: 20px 45px;
+      flex-direction: column;
+    }
+    &__wrap {
+      margin-right: 0px;
+      margin-bottom: 25px;
+    }
+    &__title {
+      text-align: center;
+      padding-top: 20px;
+      :before {
+        position: absolute;
+        border-radius: 100%;
+        content: "";
+        height: 19px;
+        width: 19px;
+        left: -160px;
+        top: 23px;
+        background: black;
+      }
+      span {
+        position: absolute;
+        font-size: 130px;
+        top: -7px;
+        left: 181px;
+      }
+    }
+    &__subtitle {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 20px;
+      line-height: 20px;
+    }
+    &__descr {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 15px;
+      line-height: 16px;
+    }
+    &__image {
+      img {
+        width: 100%;
+        height: 320px;
+      }
+    }
+  }
+
+  .header-gallery {
+    width: 300px;
+    height: 800px;
+    display: grid;
+    grid-template: repeat(5, 300px) / repeat(1, 280px);
+    row-gap: 35px;
+    column-gap: 0;
+    justify-content: none;
+    img {
+      width: 280px;
+      height: 300px;
+    }
+  }
+
+  .photo {
+    width: 230px;
+    height: 230px;
+    img {
+      width: 230px;
+      height: 230px;
+    }
+  }
+
+  .photo-close {
+    left: 270px;
+  }
+
+  .pageup {
+    bottom: 5px;
+    right: 6px;
+    height: 25px;
+    width: 25px;
+    &__up {
+      height: 25px;
+      width: 25px;
+      fill: black;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@keyframes logoport {
+  0% {
+    right: 380px;
+  }
+  100% {
+    right: 900px;
+  }
+}
+
+.port-logo {
+  background: #111111;
+  animation-name: logoport;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes dots {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  to {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,68 @@
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1201px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .my-history {
+    min-height: 660px;
+  }
+
+  .my-history-wrapper {
+    width: 800px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .my-history {
+    height: 765px;
+  }
+
+  .my-history-wrapper {
+    width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .my-history {
+    height: 898px;
+    padding-top: 52px;
+  }
+  .my-history-wrapper {
+    width: 450px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 320px;
+  }
+  .my-history-wrapper {
+    width: 270px;
+    padding: 10px 10px;
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .my-history {
+    height: 845px;
+    &__title {
+      width: 290px;
+    }
+  }
+  .my-history-text {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}

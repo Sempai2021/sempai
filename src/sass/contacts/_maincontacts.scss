@@ -1,0 +1,77 @@
+.main-contacts {
+  position: relative;
+
+  padding-top: 92px;
+  // background: url("../img/main-contacts/fons.jpg");
+  &__wrapper {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    height: 500px;
+    width: 1000px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+}
+
+.mnconst-block {
+  padding: 25px 45px;
+  display: flex;
+  flex-direction: row;
+  &__image {
+    height: 450px;
+    width: 400px;
+    margin-right: 50px;
+    img {
+      border-radius: 15px;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      transition: all 0.2s;
+      &:hover {
+        filter: drop-shadow(5px 5px 5px #111111) contrast(105%);
+      }
+    }
+  }
+}
+
+.mnconst-data {
+  padding-top: 10px;
+  display: grid;
+  grid-template: repeat(7, minmax(30px, auto)) / repeat(1, minmax(150px, auto));
+  row-gap: 20px;
+  &__descr {
+    font-size: 40px;
+    line-height: 42px;
+    color: #757575;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    span {
+      padding-left: 5px;
+      font-size: 28px;
+      font-family: "Indie Flower", cursive;
+
+      a {
+        text-decoration: none;
+        font-size: 28px;
+        font-family: "Indie Flower", cursive;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  &__item {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.mnconst-active {
+  a {
+    color: #757575;
+  }
+}

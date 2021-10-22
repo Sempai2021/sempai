@@ -1,0 +1,48 @@
+.anim-skills {
+  background: #111111;
+  animation-name: blockSkills;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes blockSkills {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+.prosent {
+  display: block;
+  color: white;
+  font-size: 56px;
+  font-family: "Indie Flower", cursive;
+  font-weight: bold;
+  animation-name: num;
+  animation-duration: 4s;
+}
+
+@keyframes num {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.simpro {
+  margin-top: 20px;
+  margin-left: 3px;
+  display: block;
+  color: white;
+  font-size: 25px;
+  font-family: "Indie Flower", cursive;
+  animation-name: num;
+  animation-duration: 4s;
+}

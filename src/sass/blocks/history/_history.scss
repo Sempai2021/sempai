@@ -1,0 +1,76 @@
+.history {
+  height: 460px;
+  // background: url("../img/history/fons.jpg") center;
+  &__wrapper {
+    padding-top: 30px;
+  }
+}
+
+.history-wrapper {
+  display: block;
+  margin: 0 auto;
+  height: 400px;
+  width: 1000px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  background-color: rgba(255, 255, 255, 0.9);
+  &__blocks {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 45px;
+  }
+}
+.history-info {
+  width: 450px;
+  margin-right: 50px;
+
+  a {
+    text-decoration: none;
+  }
+  &__title {
+    padding-top: 30px;
+    font-size: 64px;
+    line-height: 70px;
+    font-weight: bold;
+  }
+  &__subtitle {
+    margin-top: 25px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #757575;
+  }
+  &__link {
+    margin-top: 25px;
+    height: 33px;
+    width: 200px;
+    background: #efc5fc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.7s;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 23px;
+    color: #111111;
+    border: 2px solid #efc5fc;
+    &:hover {
+      color: #757575;
+      border: 2px solid #757575;
+    }
+  }
+}
+
+.history-img {
+  img {
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.7s;
+    &:hover {
+      filter: brightness(0.7);
+    }
+  }
+}

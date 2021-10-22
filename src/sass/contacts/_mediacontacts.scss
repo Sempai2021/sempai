@@ -1,0 +1,133 @@
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1201px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .main-contacts {
+    &__wrapper {
+      width: 800px;
+      height: 420px;
+    }
+  }
+
+  .mnconst-data {
+    &__descr {
+      font-size: 30px;
+      line-height: 30px;
+      span {
+        font-size: 21px;
+      }
+    }
+  }
+}
+
+.mnconst-block {
+  &__image {
+    margin-right: 40px;
+    width: 350px;
+    height: 370px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .main-contacts {
+    &__wrapper {
+      width: 660px;
+      height: 405px;
+    }
+  }
+
+  .mnconst-block {
+    padding: 15px 25px;
+    &__image {
+      margin-right: 25px;
+      width: 300px;
+      height: 370px;
+    }
+  }
+
+  .mnconst-data {
+    grid-template: repeat(7, minmax(30px, auto)) / repeat(1, minmax(50px, auto));
+    row-gap: 10px;
+    &__descr {
+      font-size: 30px;
+      line-height: 30px;
+      span {
+        font-size: 19px;
+        line-height: 19px;
+        a {
+          font-size: 19px;
+          line-height: 19px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .main-contacts {
+    &__wrapper {
+      width: 500px;
+      height: 350px;
+    }
+  }
+  .mnconst-block {
+    padding: 15px 15px;
+    &__image {
+      margin-right: 15px;
+      width: 230px;
+      height: 320px;
+    }
+  }
+  .mnconst-data {
+    padding-top: 20px;
+    grid-template: repeat(7, minmax(21px, auto)) / repeat(1, minmax(30px, auto));
+    row-gap: 5px;
+    &__descr {
+      font-size: 21px;
+      line-height: 21px;
+      span {
+        font-size: 16px;
+        line-height: 16px;
+        a {
+          font-size: 16px;
+          line-height: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 320px;
+  }
+  .main-contacts {
+    &__wrapper {
+      width: 310px;
+      height: 540px;
+    }
+  }
+  .mnconst-block {
+    flex-direction: column;
+    &__image {
+      margin-right: 15px;
+      width: 280px;
+      height: 320px;
+    }
+  }
+  .mnconst-data {
+    justify-content: center;
+  }
+}

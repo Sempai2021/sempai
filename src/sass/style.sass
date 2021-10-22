@@ -1,0 +1,65 @@
+
+// ШРИФТЫ 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap')
+
+// КОНТЭЙНЕР ДЛЯ ВЕРСТКИ
+.container
+    position: relative
+    width: 1100px
+    margin: 0 auto
+    padding: 0px
+
+// ALL SKILLS
+*
+    margin: 0
+    padding: 0
+    color: black
+    // font-family: 'Indie Flower', cursive
+    font-family: 'Lato', sans-serif
+
+// БЛОК ПО СЕКЦИЯМ
+@import "blocks/header/header.scss"
+@import "blocks/facts/facts.scss"
+@import "blocks/skills/skills.scss"
+@import "blocks/portfolio/portfolio.scss"
+@import "blocks/history/history.scss"
+@import "blocks/footer/footer.scss"
+
+// БЛОК ПО БАЗЫ ДАННЫХ
+@import "base/base.scss"
+@import "base/cursor.scss"
+
+// ИМПОРТ АНИМАЦИИ
+@import 'animate.css'
+@import "blocks/skills/animationskills.scss"
+@import "blocks/header/animationheader.scss"
+@import "blocks/portfolio/animationport.scss"
+@import "portfolio/portanimation.scss"
+
+// CONTACTS ПО СЕКЦИЯМ
+@import "contacts/maincontacts.scss"
+
+// MY-HISTORY ПО СЕКЦИЯМ
+@import "blocks/my-history/my-history.scss"
+
+// PORTFOLIO ПО СЕКЦИЯМ
+@import "portfolio/port.scss"
+
+// MEDIA 
+@import "blocks/header/medianavheader.scss"
+@import "blocks/footer/mediafooter.scss"
+@import "blocks/header/mediaheader.scss"
+@import "blocks/facts/mediafacts.scss"
+@import "blocks/skills/mediaskills.scss"
+@import "blocks/portfolio/mediaportfolio.scss"
+@import "blocks/history/mediahistory.scss"
+@import "contacts/mediacontacts.scss"
+@import "blocks/my-history/mediamyhistory.scss"
+@import "portfolio/mediaports.scss"
+html
+    scroll-behavior: smooth
+
+body
+    background: url('../img/header/fonsss.jpg')

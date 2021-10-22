@@ -1,0 +1,170 @@
+.skills {
+  height: 600px;
+  // background: url("../img/skills/fons.jpg") center;
+  &__wrapper {
+    padding-top: 30px;
+  }
+}
+
+.skills-header {
+  height: 92px;
+  width: 1000px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  &__title {
+    padding: 10px 45px;
+    display: flex;
+    justify-content: space-between;
+    &_text {
+      padding-left: 15px;
+      position: relative;
+      font-size: 55px;
+      line-height: 70px;
+      font-weight: bold;
+      font-family: "Indie Flower", cursive;
+      transition: all 0.7s;
+      &:hover {
+        color: #757575;
+      }
+      &:before {
+        position: absolute;
+        border-radius: 100%;
+        content: "";
+        height: 23px;
+        width: 23px;
+        left: -12px;
+        top: 0px;
+        background: black;
+      }
+      span {
+        position: absolute;
+        font-size: 150px;
+        top: -34px;
+        left: 745px;
+      }
+    }
+    &_logo {
+      background: #111111;
+      border-radius: 100%;
+      height: 72px;
+      width: 72px;
+      display: flex;
+      justify-content: center;
+
+      span {
+        padding-top: 5px;
+        padding-right: 4px;
+        font-size: 52px;
+        color: white;
+        font-family: "Indie Flower", cursive;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.skills-wrapper {
+  height: 400px;
+  width: 1000px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  margin-top: 30px;
+  &__blocks {
+    padding: 25px 45px;
+  }
+}
+
+.skills-progress {
+  display: grid;
+  grid-template: repeat(1, 300px) / repeat(8, 95px);
+  justify-content: space-between;
+
+  &__items95 {
+    position: relative;
+    width: 95px;
+    height: 280px;
+    margin-top: 20px;
+
+    &_item {
+      width: 100%;
+      border-radius: 15px 15px 0 0;
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+    }
+  }
+  &__items75 {
+    position: relative;
+    width: 95px;
+    height: 220px;
+    margin-top: 80px;
+  }
+  &__items99 {
+    position: relative;
+    width: 95px;
+    height: 290px;
+
+    margin-top: 10px;
+  }
+  &__items85 {
+    position: relative;
+    width: 95px;
+    height: 270px;
+
+    margin-top: 30px;
+  }
+  &__items65 {
+    position: relative;
+    width: 95px;
+    height: 170px;
+
+    margin-top: 130px;
+  }
+  &__items45 {
+    position: relative;
+    width: 95px;
+    height: 120px;
+
+    margin-top: 180px;
+  }
+  &__items35 {
+    position: relative;
+    width: 95px;
+    height: 90px;
+
+    margin-top: 210px;
+  }
+  &__items50 {
+    position: relative;
+    width: 95px;
+    height: 150px;
+
+    margin-top: 150px;
+  }
+}
+
+.skills-name {
+  margin-top: 15px;
+  display: grid;
+  grid-template: repeat(1, 30px) / repeat(8, 95px);
+  justify-content: space-between;
+  &__descr {
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+    color: #757575;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    transition: all 0.7s;
+    &:hover {
+      font-size: 25px;
+      color: black;
+    }
+  }
+}

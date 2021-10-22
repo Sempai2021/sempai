@@ -1,0 +1,327 @@
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1201px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .port-wrapper {
+    width: 960px;
+  }
+  .portfolio {
+    &__title {
+      width: 960px;
+    }
+  }
+
+  .devider-one {
+    left: 290px;
+  }
+
+  .devider-twy {
+    left: 642px;
+  }
+  .port-information {
+    &__info {
+      padding-right: 61px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .portfolio {
+    &__title {
+      width: 720px;
+    }
+  }
+
+  .devider-one {
+    left: 170px;
+  }
+
+  .devider-twy {
+    left: 520px;
+  }
+
+  .port-information {
+    padding: 25px 25px;
+    &__info {
+      padding-right: 22px;
+    }
+    &__info-etc {
+      margin-top: 7px;
+      grid-template: repeat(2, 160px) / repeat(2, 175px);
+    }
+  }
+  .port-wrapper {
+    width: 720px;
+  }
+  .port-slide {
+    width: 300px;
+
+    img {
+      height: 250px;
+      width: 300px;
+    }
+  }
+
+  .port-etcimg {
+    &__one {
+      height: 160px;
+      width: 175px;
+      img {
+        height: 160px;
+        width: 175px;
+        object-fit: cover;
+      }
+    }
+    &__twy {
+      height: 160px;
+      width: 175px;
+      img {
+        height: 160px;
+        width: 175px;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .port-etc {
+    height: 158px;
+    a {
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
+
+  .slick-dots {
+    left: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .portfolio {
+    height: 980px;
+    &__title {
+      width: 540px;
+    }
+  }
+
+  .devider-one {
+    left: 90px;
+  }
+
+  .devider-twy {
+    left: 420px;
+  }
+  .port-wrapper {
+    width: 540px;
+    height: 830px;
+  }
+  .port-information {
+    flex-direction: column;
+    &__info {
+      padding-right: 0px;
+      margin: 0 auto;
+    }
+    &__info-etc {
+      margin: 0 auto;
+      margin-top: 20px;
+      grid-template: repeat(2, 185px) / repeat(2, 195px);
+    }
+  }
+  .port-slide {
+    height: 300px;
+    width: 450px;
+    img {
+      height: 300px;
+      width: 450px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  }
+
+  .slick-dots {
+    top: 275px;
+    left: 125px;
+    display: grid;
+    column-gap: 15px;
+  }
+
+  .port-name {
+    justify-content: center;
+  }
+  .port-complexity {
+    justify-content: center;
+  }
+  .port-link {
+    justify-content: center;
+  }
+
+  .port-etcimg {
+    &__one {
+      height: 185px;
+      width: 195px;
+      img {
+        height: 185px;
+        width: 195px;
+        object-fit: cover;
+      }
+    }
+    &__twy {
+      height: 185px;
+      width: 195px;
+      img {
+        height: 185px;
+        width: 195px;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .port-etc {
+    height: 183px;
+    a {
+      font-size: 35px;
+      line-height: 40px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 320px;
+  }
+
+  .portfolio {
+    height: 730px;
+    &__title {
+      width: 310px;
+    }
+    &__blocks {
+      font-size: 40px;
+      line-height: 60px;
+    }
+  }
+
+  .devider-one {
+    left: 20px;
+    width: 20px;
+  }
+
+  .devider-twy {
+    left: 270px;
+    width: 20px;
+  }
+  .port-wrapper {
+    width: 310px;
+    height: 590px;
+  }
+
+  .port-information {
+    flex-direction: column;
+    &__info-etc {
+      grid-template: repeat(2, 120px) / repeat(2, 120px);
+    }
+  }
+
+  .port-etcimg {
+    &__one {
+      height: 120px;
+      width: 120px;
+      img {
+        height: 120px;
+        width: 120px;
+        object-fit: cover;
+      }
+    }
+    &__twy {
+      height: 120px;
+      width: 120px;
+      img {
+        height: 120px;
+        width: 120px;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .port-etc {
+    height: 118px;
+    text-align: center;
+    a {
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }
+
+  .port-slide {
+    height: 200px;
+    width: 260px;
+    img {
+      height: 200px;
+      width: 260px;
+    }
+  }
+
+  .slick-dots {
+    top: 180px;
+    left: 80px;
+    grid-template: repeat(1, 12px) / repeat(3, 30px);
+    column-gap: 5px;
+  }
+
+  #slick-slide-control00,
+  #slick-slide-control01,
+  #slick-slide-control02 {
+    height: 12px;
+    width: 30px;
+  }
+
+  .slick-active {
+    height: 12px;
+    width: 30px;
+    border: none;
+    background: #3fe80c;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:before {
+      position: absolute;
+      content: "";
+      height: 4px;
+      width: 10px;
+      border-radius: 6px;
+      background: black;
+    }
+  }
+  .tortslogo {
+    height: 52px;
+    width: 52px;
+
+    span {
+      margin-left: -4px;
+      margin-top: 5px;
+      font-size: 35px;
+      color: white;
+    }
+  }
+  .port-cercle {
+    span {
+      position: absolute;
+      left: -100px;
+    }
+  }
+}

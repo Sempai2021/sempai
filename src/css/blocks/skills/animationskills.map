@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "animationskills.css",
+	"sources": [
+		"../../../sass/blocks/skills/animationskills.scss"
+	],
+	"sourcesContent": [
+		".anim-skills {\r\n  background: #111111;\r\n  animation-name: blockSkills;\r\n  animation-duration: 3s;\r\n  animation-fill-mode: forwards;\r\n}\r\n\r\n@keyframes blockSkills {\r\n  from {\r\n    height: 0px;\r\n  }\r\n  to {\r\n    height: 100%;\r\n  }\r\n}\r\n\r\n.prosent {\r\n  display: block;\r\n  color: white;\r\n  font-size: 56px;\r\n  font-family: \"Indie Flower\", cursive;\r\n  font-weight: bold;\r\n  animation-name: num;\r\n  animation-duration: 4s;\r\n}\r\n\r\n@keyframes num {\r\n  from {\r\n    transform: scale(1);\r\n  }\r\n  50% {\r\n    transform: scale(1.1);\r\n  }\r\n  to {\r\n    transform: scale(1);\r\n  }\r\n}\r\n\r\n.simpro {\r\n  margin-top: 20px;\r\n  margin-left: 3px;\r\n  display: block;\r\n  color: white;\r\n  font-size: 25px;\r\n  font-family: \"Indie Flower\", cursive;\r\n  animation-name: num;\r\n  animation-duration: 4s;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,YAAY,CAAC;EACX,UAAU,EAAE,OAAO;EACnB,cAAc,EAAE,WAAW;EAC3B,kBAAkB,EAAE,EAAE;EACtB,mBAAmB,EAAE,QAAQ;CAC9B;;AAED,UAAU,CAAV,WAAU;EACR,IAAI;IACF,MAAM,EAAE,GAAG;;EAEb,EAAE;IACA,MAAM,EAAE,IAAI;;;;;AAIhB,AAAA,QAAQ,CAAC;EACP,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,uBAAuB;EACpC,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,GAAG;EACnB,kBAAkB,EAAE,EAAE;CACvB;;AAED,UAAU,CAAV,GAAU;EACR,IAAI;IACF,SAAS,EAAE,QAAQ;;EAErB,GAAG;IACD,SAAS,EAAE,UAAU;;EAEvB,EAAE;IACA,SAAS,EAAE,QAAQ;;;;;AAIvB,AAAA,OAAO,CAAC;EACN,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,GAAG;EAChB,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,uBAAuB;EACpC,cAAc,EAAE,GAAG;EACnB,kBAAkB,EAAE,EAAE;CACvB"
+}

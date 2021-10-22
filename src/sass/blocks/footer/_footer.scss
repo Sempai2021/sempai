@@ -1,0 +1,27 @@
+.footer {
+  height: 92px;
+  background: #111111;
+  width: 100%;
+}
+
+.footer-social {
+  display: grid;
+  grid-template: repeat(1, 40px) / repeat(4, 40px);
+  column-gap: 20px;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 92px;
+  justify-content: space-between;
+}
+
+.footer-creator {
+  color: white;
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: bold;
+  font-family: "Indie Flower", cursive;
+}
