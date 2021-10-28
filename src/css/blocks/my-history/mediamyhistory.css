@@ -1,79 +1,79 @@
 @media (max-width: 1440px) {
-  /* line 2, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
+  /* line 2, ../../portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
   .container {
     max-width: 1201px;
   }
 }
 
 @media (max-width: 1200px) {
-  /* line 8, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
+  /* line 8, ../../portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
   .container {
     max-width: 960px;
   }
-  /* line 11, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
+  /* line 11, ../../portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
   .my-history {
     min-height: 660px;
   }
-  /* line 15, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
+  /* line 15, ../../portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
   .my-history-wrapper {
     width: 800px;
   }
 }
 
 @media (max-width: 992px) {
-  /* line 21, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
+  /* line 21, ../../portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
   .container {
     max-width: 720px;
   }
-  /* line 24, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
+  /* line 24, ../../portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
   .my-history {
     height: 765px;
   }
-  /* line 28, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
+  /* line 28, ../../portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
   .my-history-wrapper {
     width: 600px;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 34, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
+  /* line 34, ../../portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
   .container {
     max-width: 540px;
   }
-  /* line 37, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
+  /* line 37, ../../portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
   .my-history {
     height: 898px;
     padding-top: 52px;
   }
-  /* line 41, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
+  /* line 41, ../../portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
   .my-history-wrapper {
     width: 450px;
   }
 }
 
 @media (max-width: 576px) {
-  /* line 47, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
+  /* line 47, ../../portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
   .container {
     max-width: 320px;
   }
-  /* line 50, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
+  /* line 50, ../../portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
   .my-history-wrapper {
     width: 270px;
     padding: 10px 10px;
   }
-  /* line 53, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
+  /* line 53, ../../portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
   .my-history-wrapper p {
     font-size: 18px;
   }
-  /* line 58, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
+  /* line 58, ../../portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
   .my-history {
     height: 845px;
   }
-  /* line 60, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
+  /* line 60, ../../portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
   .my-history__title {
     width: 290px;
   }
-  /* line 64, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
+  /* line 64, ../../portfolio/src/sass/blocks/my-history/mediamyhistory.scss */
   .my-history-text {
     font-size: 50px;
     line-height: 60px;

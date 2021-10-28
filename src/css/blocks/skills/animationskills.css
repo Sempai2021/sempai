@@ -1,4 +1,4 @@
-/* line 1, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/skills/animationskills.scss */
+/* line 1, ../../portfolio/src/sass/blocks/skills/animationskills.scss */
 .anim-skills {
   background: #111111;
   animation-name: blockSkills;
@@ -15,7 +15,7 @@
   }
 }
 
-/* line 17, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/skills/animationskills.scss */
+/* line 17, ../../portfolio/src/sass/blocks/skills/animationskills.scss */
 .prosent {
   display: block;
   color: white;
@@ -38,7 +38,7 @@
   }
 }
 
-/* line 39, C:/Users/tem4i/OneDrive/Code/portfolio/src/sass/blocks/skills/animationskills.scss */
+/* line 39, ../../portfolio/src/sass/blocks/skills/animationskills.scss */
 .simpro {
   margin-top: 20px;
   margin-left: 3px;
