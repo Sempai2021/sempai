@@ -117,29 +117,11 @@
       }
     }
     &_complexity {
+      position: relative;
       font-weight: bold;
       font-size: 30px;
       color: #757575;
       line-height: 70px;
-      button {
-        height: 35px;
-        width: 50px;
-        border-radius: 15px;
-        border: none;
-        background: #3fe80c;
-        transition: all 0.7s;
-        span {
-          font-size: 24px;
-          line-height: 25px;
-          color: #111111;
-          font-weight: bold;
-          font-family: "Indie Flower", cursive;
-        }
-        &:hover {
-          cursor: pointer;
-          box-shadow: 0px 0px 5px black;
-        }
-      }
     }
     &_link {
       font-weight: bold;
@@ -215,5 +197,49 @@
     cursor: pointer;
     background: #757575;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.btn-average {
+  position: absolute;
+  top: 23px;
+  left: 169px;
+  height: 30px;
+  width: 95px;
+  background: #0a5fcf;
+  border: none;
+  border-radius: 5px;
+  span {
+    font-size: 22px;
+    line-height: 25px;
+    color: #111111;
+    font-weight: bold;
+    font-family: "Indie Flower", cursive;
+  }
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+  }
+}
+
+.btn-low {
+  position: absolute;
+  top: 23px;
+  left: 169px;
+  height: 30px;
+  width: 50px;
+  background: #73f50a;
+  border: none;
+  border-radius: 5px;
+  span {
+    font-size: 22px;
+    line-height: 25px;
+    color: #111111;
+    font-weight: bold;
+    font-family: "Indie Flower", cursive;
+  }
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
   }
 }

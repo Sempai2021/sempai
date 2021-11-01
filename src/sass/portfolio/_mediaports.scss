@@ -74,11 +74,38 @@
   .tabs-wrapper {
     width: 620px;
   }
+  .btn-low {
+    top: 2px;
+  }
+  .btn-average {
+    top: 2px;
+  }
 }
 
 @media (max-width: 768px) {
   .container {
     max-width: 540px;
+  }
+  .btn-low {
+    height: 23px;
+    width: 47px;
+    top: 17px;
+    left: 102px;
+    span {
+      font-size: 20px;
+    }
+  }
+  .btn-average {
+    height: 23px;
+    top: 17px;
+    left: 102px;
+    span {
+      font-size: 20px;
+    }
+  }
+  .ports-wraptab__info_name span {
+    font-family: "Indie Flower", cursive;
+    font-size: 21px;
   }
   .ports {
     height: 830px;
@@ -182,6 +209,26 @@
       &_link {
         line-height: 25px;
       }
+    }
+  }
+
+  .btn-low {
+    height: 20px;
+    width: 47px;
+    top: 3px;
+    left: 150px;
+    span {
+      line-height: 22px;
+    }
+  }
+  .btn-average {
+    width: 61px;
+    height: 20px;
+    top: 4px;
+    left: 151px;
+    span {
+      line-height: 20px;
+      font-size: 17px;
     }
   }
 }
